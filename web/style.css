@@ -1,0 +1,55 @@
+body {
+    background-image: url("ll_ori.jpg");
+    font-family: sans-serif;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.name {
+    text-align: right;
+}
+
+.score {
+    text-align: left;
+}
+
+.container {
+    margin: auto;
+    background-color: gainsboro;
+    min-height: 100vh;
+    width: 80%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+#title {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 300%;
+}
+
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 400px;
+    font-size: 200%
+}
+
+.table_header {
+    font-weight: bold;
+}
+
+.name_header {
+    text-align: right;
+}
+
+.score_header {
+    text-align: left;
+}
