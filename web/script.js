@@ -29,6 +29,6 @@ function updateLeaderboard() {
     })
 }
 
-// Check leaderboard every 10 seconds and update scoreboard on html
+// Check leaderboard every 5 seconds and update scoreboard on html
 updateLeaderboard()
-setInterval(updateLeaderboard, 10 * 1000);
+setInterval(updateLeaderboard, 5 * 1000);
