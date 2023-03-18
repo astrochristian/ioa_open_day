@@ -1,5 +1,5 @@
 body {
-    background-image: url("ll_ori.jpg");
+    background-image: url("deep_field.jpg");
     font-family: sans-serif;
 }
 
@@ -7,6 +7,16 @@ body {
 table {
     border-collapse: collapse;
     margin: auto;
+}
+
+#video {
+    text-align: center;
+
+    padding-top: 30px;
+}
+
+#supernova_vid {
+    height: 500px;
 }
 
 .name {
@@ -27,6 +37,11 @@ table {
 
 }
 
+.FixedHeightContainer {
+    height: 400px;
+    overflow: auto;
+}
+
 #title {
     padding-top: 40px;
     padding-bottom: 10px;
@@ -38,7 +53,8 @@ table {
 td {
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size: 200%
 }
 
@@ -48,8 +64,20 @@ td {
 
 .name_header {
     text-align: right;
+    border-right: 4px solid black;
 }
 
 .score_header {
     text-align: left;
+    border-left: 4px solid black;
+}
+
+.name {
+    text-align: right;
+    border-right: 4px solid black;
+}
+
+.score {
+    text-align: left;
+    border-left: 4px solid black;
 }
